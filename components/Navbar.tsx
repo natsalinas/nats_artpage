@@ -23,7 +23,7 @@ export function Navbar() {
           Nati Salinas Art
         </Link>
 
-        <div className="flex items-center gap-6">
+        <div className="hidden items-center gap-6 md:flex">
           {navigationLinks.map((link) => (
             <Link
               key={link.href}
@@ -34,6 +34,13 @@ export function Navbar() {
             </Link>
           ))}
         </div>
+        <button
+            type="button"
+            className="inline-flex items-center justify-center rounded-md p-2 text-foreground md:hidden"
+            aria-label="Open navigation menu"
+            >
+            Menu
+        </button>
       </nav>
     </header>
   );
