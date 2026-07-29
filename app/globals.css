@@ -130,9 +130,23 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans antialiased;
   }
   html {
-    @apply font-sans;
+    scroll-behavior: smooth;
   }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-olive-dark;
+  }
+  button,
+  a,
+  input,
+  textarea,
+  select {
+    font-family: var(--font-inter);
+  }
+
 }
