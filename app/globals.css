@@ -139,7 +139,7 @@
   h2,
   h3,
   h4 {
-    @apply font-display text-olive-dark;
+    @apply font-heading text-olive-dark;
   }
   button,
   a,
