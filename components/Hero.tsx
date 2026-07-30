@@ -16,9 +16,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            I&apos;m Nati Salinas. Through the world of Rosa, I explore growth,
-            the divine feminine, and our connection with nature. Each rose
-            tells a different story.
+            Through the world of Rosa, I explore growth, the divine feminine, and the beauty of embracing each moment. Every rose tells a different story.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">

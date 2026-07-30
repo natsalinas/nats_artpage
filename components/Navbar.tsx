@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -18,17 +19,31 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4"
+        className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5"
         aria-label="Main navigation"
       >
+        {/* Logo */}
         <Link
           href="/"
-          className="font-heading text-2xl font-semibold text-olive-dark"
+          className="flex items-center gap-4"
+          aria-label="Nati Salinas Art homepage"
         >
-          Nati Salinas Art
+          <Image
+            src="/images/logo.png"
+            alt="Nati Salinas Art Logo"
+            width={64}
+            height={64}
+            priority
+            className="h-16 w-16 object-contain"
+          />
+
+          <span className="font-heading text-2xl font-semibold text-olive-dark">
+            Nati Salinas
+          </span>
         </Link>
 
-        <div className="hidden items-center gap-6 md:flex">
+        {/* Desktop Navigation */}
+        <div className="hidden items-center gap-8 md:flex">
           {navigationLinks.map((link) => (
             <Link
               key={link.href}
@@ -40,10 +55,13 @@ export function Navbar() {
           ))}
         </div>
 
+        {/* Mobile Menu Button */}
         <button
           type="button"
           className="inline-flex items-center justify-center rounded-md p-2 text-foreground md:hidden"
-          aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-label={
+            isMenuOpen ? "Close navigation menu" : "Open navigation menu"
+          }
           aria-expanded={isMenuOpen}
           aria-controls="mobile-navigation"
           onClick={() => setIsMenuOpen((current) => !current)}
@@ -52,6 +70,7 @@ export function Navbar() {
         </button>
       </nav>
 
+      {/* Mobile Navigation */}
       {isMenuOpen && (
         <div
           id="mobile-navigation"
