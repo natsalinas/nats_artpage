@@ -9,7 +9,7 @@ export default function Home() {
         </p>
 
         <h1 className="text-5xl font-semibold md:text-7xl">
-          Welcome to Rosa&apos;s world.
+          Welcome to my art world.
         </h1>
 
         <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-muted-foreground">
