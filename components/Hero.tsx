@@ -16,7 +16,9 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            Through the world of Rosa, I explore growth, the divine feminine, and the beauty of embracing each moment. Every rose tells a different story.
+            Through the world of Rosa, I explore growth, the divine feminine,
+            and the beauty of embracing each moment. Every rose tells a
+            different story.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -38,16 +40,6 @@ export function Hero() {
 
         {/* Right Image */}
         <div className="relative flex justify-center">
-          <Image
-            src="/images/hero-rosa.jpg"
-            alt="Rosa dancing through Spain"
-            width={650}
-            height={900}
-            priority
-            sizes="(max-width: 768px) 80vw, 40vw"
-            className="h-auto w-4/5 max-w-xs object-contain transition-transform duration-500 hover:scale-[1.02] sm:max-w-sm md:w-full md:max-w-md"
-          />
-
           {/* Decorative background glow */}
           <div
             aria-hidden="true"
@@ -57,6 +49,16 @@ export function Hero() {
           <div
             aria-hidden="true"
             className="absolute -right-10 -top-10 -z-10 h-56 w-56 rounded-full bg-olive/20 blur-3xl"
+          />
+
+          <Image
+            src="/images/hero-rosa.jpg"
+            alt="Rosa dancing through Spain"
+            width={650}
+            height={900}
+            priority
+            sizes="(max-width: 768px) 80vw, 40vw"
+            className="h-auto w-4/5 max-w-xs rounded-[2rem] object-contain shadow-xl transition-transform duration-500 hover:scale-[1.02] sm:max-w-sm md:w-full md:max-w-md"
           />
         </div>
       </div>
