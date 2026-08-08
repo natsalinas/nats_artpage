@@ -10,7 +10,6 @@ const navigationLinks = [
   { href: "/gallery", label: "Gallery" },
   { href: "/products", label: "Shop" },
   { href: "/commissions", label: "Custom Art" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export function Navbar() {
