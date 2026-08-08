@@ -30,7 +30,7 @@ export default function AboutPage() {
 
             <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-secondary shadow-lg">
               <Image
-                src="/images/nati-about.jpg"
+                src="/images/nati-about.JPG"
                 alt="Nati Salinas dancing at an outdoor event"
                 fill
                 priority
