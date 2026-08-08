@@ -1,15 +1,12 @@
 import Image from "next/image";
-import Link from "next/link";
 
 type ArtworkCardProps = {
   title: string;
   image: string;
   imageAlt: string;
   medium: string;
+  dimensions?: string;
   year?: string;
-  status?: string;
-  price?: string;
-  href?: string;
 };
 
 export function ArtworkCard({
@@ -17,47 +14,32 @@ export function ArtworkCard({
   image,
   imageAlt,
   medium,
+  dimensions,
   year,
-  status,
-  price,
-  href = "/contact",
 }: ArtworkCardProps) {
   return (
-    <article className="group overflow-hidden rounded-3xl border border-border bg-background shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
-      <div className="relative aspect-[4/5] overflow-hidden bg-secondary">
+    <article>
+      <div className="flex h-[500px] items-center justify-center sm:h-[550px]">
         <Image
           src={image}
           alt={imageAlt}
-          fill
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-          className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+          width={1400}
+          height={1800}
+          sizes="(max-width: 640px) 82vw, (max-width: 1024px) 42vw, 32vw"
+          className="max-h-full w-auto max-w-full object-contain"
         />
       </div>
 
-      <div className="p-6">
-        <h2 className="font-heading text-3xl font-semibold text-olive-dark">
+      <div className="mt-5">
+        <h2 className="font-heading text-2xl font-medium text-foreground">
           {title}
         </h2>
 
-        <p className="mt-2 text-sm text-muted-foreground">
+        <p className="mt-1 text-sm leading-6 text-muted-foreground">
           {medium}
-          {year ? ` · ${year}` : ""}
+          {dimensions ? `, ${dimensions}` : ""}
+          {year ? `, ${year}.` : ""}
         </p>
-
-        {status && (
-          <p className="mt-4 text-sm font-medium text-olive">{status}</p>
-        )}
-
-        {price && (
-          <p className="mt-1 text-lg font-semibold text-foreground">{price}</p>
-        )}
-
-        <Link
-          href={href}
-          className="mt-5 inline-flex text-sm font-semibold text-rose-dark transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-        >
-          Inquire About This Piece
-        </Link>
       </div>
     </article>
   );
