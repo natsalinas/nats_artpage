@@ -43,14 +43,25 @@ export default function AboutPage() {
           <div className="mt-10 max-w-3xl">
             <div className="space-y-5 text-lg leading-8 text-muted-foreground">
               <p>
-                I&apos;m an Orlando-based artist who enjoys realism blended with
-                abstract visuals and bold colors. I first started drawing as a child after reading through my favorite comic books and wanting to make my own. 
-                In high school, I started creating portraits and found a passion for capturing subjects in acrylic and oil pastels. Some of my favorite artists include Picasso, Van Gogh, and Salvador Dali.  
-
+                I&apos;m an Orlando-based artist who enjoys blending realism with abstract visuals 
+                and bold colors. I first started drawing as a child, flipping through my favorite 
+                comic books and creating sketches of my own.
+              </p>
+              <p>
+                In high school, I began creating portraits and found a passion for capturing people 
+                through acrylics and oil pastels. My inspiration has also been shaped by artists 
+                like Pablo Picasso, Salvador Dalí, and Vincent van Gogh.
+              </p>
+              <p>
+                Music has always been another creative outlet for me. I grew up loving The Beatles and 
+                the way their music could make me dream and imagine entire worlds. On the other end of 
+                the spectrum, I love house and EDM—the energy, the colors, and the freedom I find through 
+                dancing. I&apos;m drawn to the artistry in both: one makes me dream, the other makes me move.
               </p>
 
               <p>
-                My artwork, espeically with the expression of Rosa, romanticizes the experiences in everyday life and the emotions that come with them.
+                My artwork romanticizes the experiences of everyday life and the emotions that come with them, 
+                especially through the world of Rosa.
               </p>
             </div>
 
