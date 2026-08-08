@@ -53,6 +53,7 @@ export default function ProductsPage() {
           {products.map((product) => (
             <ProductCard
               key={product.id}
+              id={product.id}
               title={product.title}
               productType={product.productType}
               size={product.size}

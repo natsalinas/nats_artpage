@@ -44,19 +44,15 @@ export default function AboutPage() {
             <div className="space-y-5 text-lg leading-8 text-muted-foreground">
               <p>
                 I&apos;m an Orlando-based artist who enjoys realism blended with
-                abstract and bold colors.
+                abstract and bold colors. I first started drawing as a child after reading through my favorite comic books and wanting to make my own. 
+                In high school, I started creating portraits, experimenting with arcylics and oil pastels on canvas. Some of my favorite artists include Picasso, Van Gogh, and Salvador Dali. I love to explore their use of color, movement, and symbolism in my own work. 
+
               </p>
 
               <p>
                 My artwork is shaped by the experiences that make me feel most
                 alive—traveling, dancing, connecting with people, and learning
                 to be fully present in each season of life.
-              </p>
-
-              <p>
-                Through color, movement, and symbolism, I create pieces that
-                reflect growth, femininity, emotion, and the moments that shape
-                who we become.
               </p>
             </div>
 
