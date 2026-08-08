@@ -13,7 +13,7 @@ export default function AboutPage() {
             </p>
 
             <h1 className="mt-4 font-heading text-5xl font-semibold leading-tight text-olive-dark sm:text-6xl">
-              I&apos;m Nati Salinas.
+              Nati Salinas
             </h1>
           </div>
 
@@ -44,15 +44,13 @@ export default function AboutPage() {
             <div className="space-y-5 text-lg leading-8 text-muted-foreground">
               <p>
                 I&apos;m an Orlando-based artist who enjoys realism blended with
-                abstract and bold colors. I first started drawing as a child after reading through my favorite comic books and wanting to make my own. 
-                In high school, I started creating portraits, experimenting with arcylics and oil pastels on canvas. Some of my favorite artists include Picasso, Van Gogh, and Salvador Dali. I love to explore their use of color, movement, and symbolism in my own work. 
+                abstract visuals and bold colors. I first started drawing as a child after reading through my favorite comic books and wanting to make my own. 
+                In high school, I started creating portraits and found a passion for capturing subjects in acrylic and oil pastels. Some of my favorite artists include Picasso, Van Gogh, and Salvador Dali.  
 
               </p>
 
               <p>
-                My artwork is shaped by the experiences that make me feel most
-                alive—traveling, dancing, connecting with people, and learning
-                to be fully present in each season of life.
+                My artwork, espeically with the expression of Rosa, romanticizes the experiences in everyday life and the emotions that come with them.
               </p>
             </div>
 
