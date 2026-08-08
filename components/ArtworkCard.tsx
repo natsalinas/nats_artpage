@@ -19,17 +19,19 @@ export function ArtworkCard({
 }: ArtworkCardProps) {
   return (
     <article>
-      <div className="flex h-[500px] items-center justify-center sm:h-[550px]">
+      {/* Artwork */}
+      <div className="flex items-center justify-center">
         <Image
           src={image}
           alt={imageAlt}
           width={1400}
           height={1800}
-          sizes="(max-width: 640px) 82vw, (max-width: 1024px) 42vw, 32vw"
-          className="max-h-full w-auto max-w-full object-contain"
+          sizes="(max-width: 640px) 72vw, (max-width: 1024px) 60vw, 32vw"
+          className="h-auto max-h-[650px] w-auto max-w-full object-contain"
         />
       </div>
 
+      {/* Artwork Information */}
       <div className="mt-5">
         <h2 className="font-heading text-2xl font-medium text-foreground">
           {title}

@@ -4,7 +4,7 @@ import Link from "next/link";
 export function Hero() {
   return (
     <section className="overflow-hidden">
-      <div className="mx-auto grid min-h-[calc(100vh-73px)] max-w-7xl items-center gap-16 px-6 py-16 md:grid-cols-2 lg:px-8">
+      <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 pb-16 pt-8 md:min-h-[calc(100vh-73px)] md:grid-cols-2 md:gap-16 md:py-16 lg:px-8">
         {/* Left Content */}
         <div className="max-w-xl">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-olive">
@@ -24,14 +24,14 @@ export function Hero() {
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <Link
               href="/gallery"
-              className="inline-flex items-center justify-center rounded-md bg-olive-dark px-6 py-3 text-sm font-semibold text-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-olive hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              className="inline-flex items-center justify-center rounded-full bg-olive-dark px-6 py-3 text-sm font-semibold text-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-olive hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             >
               Explore the Gallery
             </Link>
 
             <Link
               href="/commissions"
-              className="inline-flex items-center justify-center rounded-md border border-rose-dark px-6 py-3 text-sm font-semibold text-rose-dark transition-all duration-300 hover:-translate-y-0.5 hover:bg-rose hover:text-white hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              className="inline-flex items-center justify-center rounded-full border border-rose-dark px-6 py-3 text-sm font-semibold text-rose-dark transition-all duration-300 hover:-translate-y-0.5 hover:bg-rose hover:text-white hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             >
               Commission a Piece
             </Link>

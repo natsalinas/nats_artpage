@@ -29,12 +29,16 @@ const artworks = [
 
 export default function GalleryPage() {
   return (
-    <main className="px-6 py-16 sm:py-20 lg:px-8 lg:py-24">
+    <main className="overflow-hidden px-6 py-16 sm:py-20 lg:px-8 lg:py-24">
       <div className="mx-auto max-w-7xl">
         {/* Gallery Introduction */}
         <div className="max-w-2xl">
-          <h1 className="font-heading text-5xl font-semibold text-olive-dark sm:text-6xl">
-            The Rosa Collection
+          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-olive">
+            Gallery
+          </p>
+
+          <h1 className="mt-4 font-heading text-5xl font-semibold text-olive-dark sm:text-6xl">
+            The Collection
           </h1>
 
           <p className="mt-5 text-lg leading-8 text-muted-foreground">
@@ -42,12 +46,17 @@ export default function GalleryPage() {
           </p>
         </div>
 
+        {/* Swipe cue for mobile + tablet */}
+        <p className="mt-8 text-sm text-muted-foreground">
+          Swipe to explore →
+        </p>
+
         {/* Horizontal Artwork Gallery */}
-        <div className="mt-12 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-8 pr-6 md:mt-16 md:gap-10">
+        <div className="mt-6 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-8 pr-6 md:gap-8 lg:mt-14 lg:gap-10">
           {artworks.map((artwork) => (
             <div
               key={artwork.title}
-              className="w-[72vw] shrink-0 snap-start sm:w-[58vw] md:w-[42vw] lg:w-[32vw]"
+              className="w-[72vw] shrink-0 snap-start sm:w-[62vw] md:w-[60vw] lg:w-[30vw] xl:w-[28vw]"
             >
               <ArtworkCard
                 title={artwork.title}
