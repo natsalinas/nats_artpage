@@ -57,28 +57,6 @@ Live Site: https://art.nati.studio
 
 ## Architecture
 
-```text
-Visitor
-   │
-   ▼
-art.nati.studio
-   │
-   ▼
-Amazon Route 53
-   │
-   ▼
-AWS Amplify
-   │
-   ├── Next.js Frontend
-   │
-   └── Next.js API Routes
-             │
-             ▼
-          AWS IAM
-             │
-             ▼
-         Amazon SES
-             │
-             ▼
-       Email Notification
-```
+The application is automatically deployed from GitHub to AWS Amplify. User requests are served by the Next.js application, while server-side REST endpoints integrate with Amazon SES through the AWS SDK using IAM authorization.
+
+![Nati Salinas Art Website AWS Architecture](architecture.pdf)
