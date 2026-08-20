@@ -19,7 +19,7 @@ const artworks = [
   },
   {
     title: "La DJ",
-    image: "/images/artwork/la-dj.jpg",
+    image: "/images/artwork/La_DJ.PNG",
     imageAlt: "Rose-headed DJ mixing music",
     medium: "Acrylic on Canvas",
     dimensions: "11 × 14 in",
@@ -47,9 +47,7 @@ export default function GalleryPage() {
         </div>
 
         {/* Swipe cue for mobile + tablet */}
-        <p className="mt-8 text-sm text-muted-foreground">
-          Swipe to explore →
-        </p>
+        <p className="mt-8 text-sm text-muted-foreground">Swipe to explore →</p>
 
         {/* Horizontal Artwork Gallery */}
         <div className="mt-6 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-8 pr-6 md:gap-8 lg:mt-14 lg:gap-10">
