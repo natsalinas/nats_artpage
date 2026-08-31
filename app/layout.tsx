@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
 import { Footer } from "@/components/Footer";
-import {
-  Cormorant_Garamond,
-  Inter,
-} from "next/font/google";
+import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
+import ShopifyStore from "@/components/ShopifyStore";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -45,6 +43,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} ${cormorant.variable}`}>
         <Navbar />
+        <ShopifyStore />
+
         {children}
         <Footer />
       </body>
