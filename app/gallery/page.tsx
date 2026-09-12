@@ -11,7 +11,7 @@ const artworks = [
   },
   {
     title: "La DJ",
-    image: "/images/artwork/La_DJ.PNG",
+    image: "/images/artwork/la-dj.PNG",
     imageAlt: "Rose-headed DJ mixing music",
     medium: "Acrylic on Canvas",
     dimensions: "11 × 14 in",
