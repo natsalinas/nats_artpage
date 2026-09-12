@@ -43,25 +43,47 @@ export default function AboutPage() {
           <div className="mt-10 max-w-3xl">
             <div className="space-y-5 text-lg leading-8 text-muted-foreground">
               <p>
-                I&apos;m an Orlando-based artist who enjoys blending realism with abstract visuals 
-                and bold colors. I first started drawing as a child, flipping through my favorite 
+                I love blending realism with abstract visuals and bold colors. I
+                first started drawing as a child, flipping through my favorite
                 comic books and creating sketches of my own.
               </p>
               <p>
-                In high school, I began creating portraits and found a passion for capturing people 
-                through acrylics and oil pastels. My inspiration has also been shaped by artists 
-                like Pablo Picasso, Salvador Dalí, and Vincent van Gogh.
+                I grew up in South Florida with my Colombian family, in a home
+                where creativity was always encouraged. In high school, I began
+                creating portraits and found a passion for capturing people
+                through acrylics and oil pastels.
               </p>
               <p>
-                Music has always been another creative outlet for me. I grew up loving The Beatles and 
-                the way their music could make me dream and imagine entire worlds. On the other end of 
-                the spectrum, I love house and EDM—the energy, the colors, and the freedom I find through 
-                dancing. I&apos;m drawn to the artistry in both: one makes me dream, the other makes me move.
+                Music has always been a big part of my life and a source of
+                inspiration for my art. I grew up listening to The Beatles and
+                loving how songs like Strawberry Fields Forever and Lucy in the
+                Sky with Diamonds could take me into completely different
+                worlds. My parents were always supportive of my creativity, and
+                before leaving for college, I painted a mural in their home
+                celebrating the music I grew up with.
+              </p>
+              <div className="mx-auto my-8 w-full max-w-2xl overflow-hidden rounded-[2rem] shadow-lg">
+                <Image
+                  src="/images/artwork/home_mural.png"
+                  alt="Home mural painted by Nati Salinas"
+                  width={1200}
+                  height={800}
+                  sizes="(max-width: 768px) 100vw, 672px"
+                  className="h-auto w-full"
+                />
+              </div>
+              <p>
+                These days, I&apos;ve also found a love for EDM. I love dancing,
+                going to shows, and being surrounded by the music, colors,
+                movement, and energy of it all.
               </p>
 
               <p>
-                My artwork romanticizes the experiences of everyday life and the emotions that come with them, 
-                especially through the world of Rosa.
+                My artwork is a way for me to romanticize everyday life and turn
+                the experiences, people, places, and emotions that mean
+                something to me into something I can hold onto. That idea has
+                grown into The World of Rosa, where each Rosa captures a
+                different story.
               </p>
             </div>
 

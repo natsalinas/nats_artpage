@@ -17,8 +17,7 @@ export function Hero() {
 
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
             Through the world of Rosa, I explore growth, the divine feminine,
-            and the beauty of embracing each moment. Every rose tells a
-            different story.
+            and the beauty of embracing each moment.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
