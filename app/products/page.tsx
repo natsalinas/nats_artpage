@@ -14,7 +14,7 @@ const products = [
     title: "La DJ",
     productType: "Art Print",
     size: "8 × 10 in",
-    image: "/images/artwork/La_DJ.PNG",
+    image: "/images/artwork/la-dj.PNG",
     alt: "La DJ art print",
   },
   {
@@ -22,7 +22,7 @@ const products = [
     title: "La DJ",
     productType: "Canvas",
     size: "11 × 14 in",
-    image: "/images/artwork/La_DJ.PNG",
+    image: "/images/artwork/la-dj.PNG",
     alt: "La DJ canvas",
   },
 ];
