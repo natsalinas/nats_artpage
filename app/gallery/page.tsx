@@ -10,17 +10,17 @@ const artworks = [
     year: "2026",
   },
   {
-    title: "Rosa y el Espejo",
-    image: "/images/artwork/el-espejo.jpg",
-    imageAlt: "Rosa looking into a mirror",
+    title: "La DJ",
+    image: "/images/artwork/La_DJ.PNG",
+    imageAlt: "Rose-headed DJ mixing music",
     medium: "Acrylic on Canvas",
     dimensions: "11 × 14 in",
     year: "2026",
   },
   {
-    title: "La DJ",
-    image: "/images/artwork/La_DJ.PNG",
-    imageAlt: "Rose-headed DJ mixing music",
+    title: "Rosa y el Espejo",
+    image: "/images/artwork/el-espejo.jpg",
+    imageAlt: "Rosa looking into a mirror",
     medium: "Acrylic on Canvas",
     dimensions: "11 × 14 in",
     year: "2026",
@@ -42,7 +42,7 @@ export default function GalleryPage() {
           </h1>
 
           <p className="mt-5 text-lg leading-8 text-muted-foreground">
-            Every rose has her own story, emotions, and personality.
+            View the latest pieces.
           </p>
         </div>
 
