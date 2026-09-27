@@ -30,7 +30,7 @@ export default function AboutPage() {
 
             <div className="relative h-full w-full overflow-hidden rounded-[2rem] bg-secondary shadow-lg">
               <Image
-                src="/images/nati-aboutme-pic.png"
+                src="/images/nati-aboutme-pic.jpg"
                 alt="Nati Salinas"
                 fill
                 priority
