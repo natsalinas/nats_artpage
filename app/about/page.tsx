@@ -45,13 +45,9 @@ export default function AboutPage() {
               <p>
                 I love blending realism with abstract visuals and bold colors.
                 My favorite artists include Salvador Dali, Pablo Picasso,
-                Leonardo da Vinci, and Vincent Van Gogh. I first started
-                drawing as a child, flipping through my favorite comic books
-                and creating sketches of my own.
-              </p>
-              <p>
-                I grew up in a home where creativity was always encouraged. In
-                high school, I began creating portraits and found a passion
+                Leonardo da Vinci, and Vincent Van Gogh. I first started drawing
+                as a child, flipping through my favorite comic books and
+                creating sketches of my own. In high school, I found a passion
                 for capturing people through acrylics and oil pastels.
               </p>
             </div>
@@ -69,14 +65,13 @@ export default function AboutPage() {
                 className="h-auto w-full"
               />
             </div>
-
             <p className="mt-8 text-lg leading-8 text-muted-foreground">
               Music has always been a big part of my life and a source of
               inspiration for my art. I grew up listening to The Beatles and
               Pink Floyd and loving how their music could take me into
-              completely different worlds. My parents were always supportive
-              of my creativity, and before leaving for college, I painted a
-              mural in their home celebrating the music I grew up with.
+              completely different worlds. My parents were always supportive of
+              my creativity, and before leaving for college, I painted a mural
+              in their home celebrating the music I grew up with.
             </p>
           </div>
 
@@ -95,17 +90,12 @@ export default function AboutPage() {
             <p className="mt-8 text-lg leading-8 text-muted-foreground">
               These days, I&apos;ve also found a love for EDM. I love dancing,
               going to shows, and being surrounded by the music, colors,
-              movement, and energy of it all.
+              movement, and energy of it all. My artwork is a way for me to
+              romanticize everyday life.
             </p>
           </div>
 
           <div className="mt-16 max-w-3xl">
-            <p className="text-lg leading-8 text-muted-foreground">
-              My artwork is a way for me to romanticize everyday life and turn
-              the experiences, people, places, and emotions that mean something
-              to me into something I can hold onto.
-            </p>
-
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
                 href="/gallery"
