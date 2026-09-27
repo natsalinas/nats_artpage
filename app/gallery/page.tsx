@@ -8,6 +8,7 @@ const rosaArtworks = [
     medium: "Acrylic on Canvas",
     dimensions: "11 × 14 in",
     year: "2026",
+    showInquiry: true,
   },
   {
     title: "Rosa Española",
@@ -33,6 +34,7 @@ const otherArtworks = [
     medium: "Acrylic on Canvas",
     dimensions: "12 × 12 in",
     year: "2017",
+    showInquiry: true,
   },
   {
     title: "Abbey Road",
@@ -41,6 +43,7 @@ const otherArtworks = [
     medium: "Acrylic on Canvas",
     dimensions: "30 × 15 in",
     year: "2026",
+    showInquiry: true,
   },
   {
     title: "Home Mural",
@@ -51,7 +54,17 @@ const otherArtworks = [
   },
 ];
 
-function ArtworkGrid({ artworks }: { artworks: typeof rosaArtworks }) {
+type GalleryArtwork = {
+  title: string;
+  image: string;
+  imageAlt: string;
+  medium: string;
+  dimensions?: string;
+  year?: string;
+  showInquiry?: boolean;
+};
+
+function ArtworkGrid({ artworks }: { artworks: GalleryArtwork[] }) {
   return (
     <div className="mt-8 grid grid-cols-1 gap-10 sm:mt-10 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-14">
       {artworks.map((artwork) => (
@@ -63,6 +76,7 @@ function ArtworkGrid({ artworks }: { artworks: typeof rosaArtworks }) {
           medium={artwork.medium}
           dimensions={artwork.dimensions}
           year={artwork.year}
+          showInquiry={artwork.showInquiry}
         />
       ))}
     </div>
