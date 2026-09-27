@@ -46,7 +46,7 @@ export default async function ArtworkInquiryPage({
         </p>
 
         <h1 className="mt-4 font-heading text-5xl font-semibold text-olive-dark sm:text-6xl">
-          Interested in {artworkTitle}?
+          Interested in this piece?
         </h1>
 
         <p className="mt-6 text-lg leading-8 text-muted-foreground">
