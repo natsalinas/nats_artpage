@@ -46,9 +46,9 @@ export default function AboutPage() {
                 <p>
                   I love blending realism with abstract visuals and bold colors.
                   My favorite artists include Salvador Dali, Pablo Picasso,
-                  Leonardo da Vinci, and Vincent Van Gogh. I first started drawing
-                  as a child, flipping through my favorite comic books and
-                  creating sketches of my own.
+                  Leonardo da Vinci, and Vincent Van Gogh. I first started
+                  drawing as a child, flipping through my favorite comic books
+                  and creating sketches of my own.
                 </p>
                 <p>
                   I grew up in South Florida, in a home where creativity was
@@ -134,6 +134,16 @@ export default function AboutPage() {
               How the World of Rosa began.
             </h2>
 
+            <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-background shadow-lg">
+              <Image
+                src="/images/about-rosa.jpg"
+                alt="Nati Salinas holding one of her Rosa paintings"
+                fill
+                sizes="(max-width: 1024px) 100vw, 45vw"
+                className="object-cover object-top"
+              />
+            </div>
+
             <div className="mt-6 space-y-5 text-lg leading-8 text-muted-foreground">
               <p>
                 Rosa began with an image I discovered on Pinterest—a feminine
@@ -182,16 +192,6 @@ export default function AboutPage() {
               aria-hidden="true"
               className="absolute -right-6 -top-6 h-44 w-44 rounded-full bg-rose/20 blur-3xl"
             />
-
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-background shadow-lg">
-              <Image
-                src="/images/about-rosa.jpg"
-                alt="Nati Salinas holding one of her Rosa paintings"
-                fill
-                sizes="(max-width: 1024px) 100vw, 45vw"
-                className="object-cover object-top"
-              />
-            </div>
           </div>
         </div>
       </section>
