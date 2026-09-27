@@ -23,17 +23,25 @@ const rosaArtworks = [
     medium: "Digital Illustration",
     year: "2026",
   },
-  {
-    title: "Rosa y el Espejo",
-    image: "/images/artwork/el-espejo.jpg",
-    imageAlt: "Rosa looking into a mirror",
-    medium: "Acrylic on Canvas",
-    dimensions: "11 × 14 in",
-    year: "2026",
-  },
 ];
 
 const otherArtworks = [
+  {
+    title: "Abbey Road",
+    image: "/images/artwork/abbey_road.png",
+    imageAlt: "The Beatles walking down Abbey Road",
+    medium: "Acrylic on Canvas",
+    dimensions: "30 × 15 in",
+    year: "2017",
+  }
+  {
+    title: "Freddie Mercury",
+    image: "/images/artwork/freddie_trippy.png",
+    imageAlt: "Freddie Mercury",
+    medium: "Acrylic on Canvas",
+    dimensions: "12 × 12 in",
+    year: "2017",
+  },
   {
     title: "Home Mural",
     image: "/images/artwork/home_mural.png",
