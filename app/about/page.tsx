@@ -117,65 +117,67 @@ export default function AboutPage() {
 
       {/* About Rosa */}
       <section className="bg-secondary/50 px-6 py-16 sm:py-20 lg:px-8 lg:py-24">
-        <div className="mx-auto max-w-2xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-olive">
-            About Rosa
-          </p>
+        <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:items-center lg:gap-16">
+          <div className="max-w-3xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-olive">
+              About Rosa
+            </p>
 
-          <h2 className="mt-4 font-heading text-4xl font-semibold leading-tight text-olive-dark sm:text-5xl">
-            How the World of Rosa began.
-          </h2>
+            <h2 className="mt-4 font-heading text-4xl font-semibold leading-tight text-olive-dark sm:text-5xl">
+              How the World of Rosa began.
+            </h2>
 
-          <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-background shadow-lg">
+            <div className="mt-8 space-y-5 text-lg leading-8 text-muted-foreground">
+              <p>
+                Rosa began with an image I discovered on Pinterest—a feminine
+                figure with a rose in place of her head. I came across several
+                variations of the image and was never able to identify the
+                original artist, but the character stayed with me.
+              </p>
+
+              <p>
+                I couldn&apos;t stop wondering who she was or what stories she
+                had to tell. So I began painting my own interpretations and
+                bringing Rosa into my everyday life.
+              </p>
+
+              <p>The World of Rosa is still growing, one story at a time.</p>
+            </div>
+
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">
+              <Link
+                href="/gallery"
+                className="inline-flex items-center font-semibold text-rose-dark transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              >
+                Explore the Gallery
+                <span aria-hidden="true" className="ml-2">
+                  →
+                </span>
+              </Link>
+
+              <a
+                href="https://www.instagram.com/reel/DXzZWYsKDR-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center font-semibold text-olive transition-colors hover:text-olive-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              >
+                Watch Rosa come to life
+                <span aria-hidden="true" className="ml-2">
+                  ↗
+                </span>
+                <span className="sr-only"> on Instagram</span>
+              </a>
+            </div>
+          </div>
+
+          <div className="relative mx-auto mt-10 aspect-[4/5] w-full max-w-lg overflow-hidden rounded-[2rem] bg-background shadow-lg lg:mt-0">
             <Image
               src="/images/about-rosa.jpg"
               alt="Nati Salinas holding one of her Rosa paintings"
               fill
-              sizes="(max-width: 1024px) 100vw, 672px"
+              sizes="(max-width: 1023px) 100vw, 40vw"
               className="object-cover object-top"
             />
-          </div>
-
-          <div className="mt-6 space-y-5 text-lg leading-8 text-muted-foreground">
-            <p>
-              Rosa began with an image I discovered on Pinterest—a feminine
-              figure with a rose in place of her head. I came across several
-              variations of the image and was never able to identify the
-              original artist, but the character stayed with me.
-            </p>
-
-            <p>
-              I couldn&apos;t stop wondering who she was or what stories she
-              had to tell. So I began painting my own interpretations and
-              bringing Rosa into my everyday life.
-            </p>
-
-            <p>The World of Rosa is still growing, one story at a time.</p>
-          </div>
-
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">
-            <Link
-              href="/gallery"
-              className="inline-flex items-center font-semibold text-rose-dark transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-            >
-              Explore the Gallery
-              <span aria-hidden="true" className="ml-2">
-                →
-              </span>
-            </Link>
-
-            <a
-              href="https://www.instagram.com/reel/DXzZWYsKDR-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center font-semibold text-olive transition-colors hover:text-olive-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-            >
-              Watch Rosa come to life
-              <span aria-hidden="true" className="ml-2">
-                ↗
-              </span>
-              <span className="sr-only"> on Instagram</span>
-            </a>
           </div>
         </div>
       </section>
