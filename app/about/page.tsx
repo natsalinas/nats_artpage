@@ -17,7 +17,7 @@ export default function AboutPage() {
             </h1>
           </div>
 
-          <div className="relative mt-10 mx-auto max-w-2xl">
+          <div className="relative mt-10 mx-auto max-w-2xl lg:max-w-md">
             <div
               aria-hidden="true"
               className="absolute -left-6 -top-6 h-44 w-44 rounded-full bg-rose/20 blur-3xl"
@@ -34,7 +34,7 @@ export default function AboutPage() {
                 alt="Nati Salinas"
                 fill
                 priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 70vw, 700px"
+                sizes="(max-width: 768px) 100vw, (max-width: 1023px) 70vw, 448px"
                 className="object-cover object-center"
               />
             </div>
