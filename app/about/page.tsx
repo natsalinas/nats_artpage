@@ -59,9 +59,23 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="mt-10 max-w-3xl">
-            <div className="space-y-5 text-lg leading-8 text-muted-foreground">
-              <p>
+          {/* Music and mural */}
+          <div className="mt-16 flex flex-col gap-10 lg:grid lg:grid-cols-2 lg:items-center lg:gap-16">
+            <div className="order-2 lg:order-1">
+              <div className="overflow-hidden rounded-[2rem] shadow-lg">
+                <Image
+                  src="/images/artwork/home_mural.png"
+                  alt="Home mural painted by Nati Salinas"
+                  width={1200}
+                  height={800}
+                  sizes="(max-width: 1023px) 100vw, 45vw"
+                  className="h-auto w-full"
+                />
+              </div>
+            </div>
+
+            <div className="order-1 lg:order-2">
+              <p className="text-lg leading-8 text-muted-foreground">
                 Music has always been a big part of my life and a source of
                 inspiration for my art. I grew up listening to The Beatles and
                 Pink Floyd and loving how their music could take me into
@@ -69,38 +83,36 @@ export default function AboutPage() {
                 of my creativity, and before leaving for college, I painted a
                 mural in their home celebrating the music I grew up with.
               </p>
-              <div className="mx-auto my-8 w-full max-w-2xl overflow-hidden rounded-[2rem] shadow-lg">
-                <Image
-                  src="/images/artwork/home_mural.png"
-                  alt="Home mural painted by Nati Salinas"
-                  width={1200}
-                  height={800}
-                  sizes="(max-width: 768px) 100vw, 672px"
-                  className="h-auto w-full"
-                />
-              </div>
-              <p>
+            </div>
+          </div>
+
+          {/* EDM and dancing */}
+          <div className="mt-16 flex flex-col gap-10 lg:grid lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-center lg:gap-16">
+            <div className="order-2 lg:order-1">
+              <p className="text-lg leading-8 text-muted-foreground">
                 These days, I&apos;ve also found a love for EDM. I love dancing,
                 going to shows, and being surrounded by the music, colors,
                 movement, and energy of it all.
               </p>
-
-              <div className="relative mx-auto my-8 aspect-[4/5] w-full max-w-2xl overflow-hidden rounded-[2rem] bg-secondary shadow-lg">
-                <Image
-                  src="/images/nati-about.JPG"
-                  alt="Nati Salinas dancing at an outdoor event"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 672px"
-                  className="object-cover object-center"
-                />
-              </div>
-
-              <p>
-                My artwork is a way for me to romanticize everyday life and turn
-                the experiences, people, places, and emotions that mean
-                something to me into something I can hold onto.
-              </p>
             </div>
+
+            <div className="relative order-1 mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-[2rem] bg-secondary shadow-lg lg:order-2 lg:max-w-[22rem]">
+              <Image
+                src="/images/nati-about.JPG"
+                alt="Nati Salinas dancing at an outdoor event"
+                fill
+                sizes="(max-width: 1023px) 384px, 352px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
+
+          <div className="mt-16 max-w-3xl">
+            <p className="text-lg leading-8 text-muted-foreground">
+              My artwork is a way for me to romanticize everyday life and turn
+              the experiences, people, places, and emotions that mean something
+              to me into something I can hold onto.
+            </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
