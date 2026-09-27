@@ -12,7 +12,7 @@ export function Hero() {
           </p>
 
           <h1 className="font-heading text-5xl font-semibold leading-tight text-olive-dark sm:text-6xl lg:text-7xl">
-            Welcome to my world of art.
+            Turning moments into art.
           </h1>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
