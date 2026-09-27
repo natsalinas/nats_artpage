@@ -17,44 +17,51 @@ export default function AboutPage() {
             </h1>
           </div>
 
-          <div className="relative mt-10 mx-auto max-w-2xl lg:max-w-md">
-            <div
-              aria-hidden="true"
-              className="absolute -left-6 -top-6 h-44 w-44 rounded-full bg-rose/20 blur-3xl"
-            />
+          <div className="mt-10 lg:grid lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-center lg:gap-16">
+            <div className="max-w-3xl">
+              <div className="space-y-5 text-lg leading-8 text-muted-foreground">
+                <p>
+                  I love blending realism with abstract visuals and bold colors.
+                  My favorite artists include Salvador Dali, Pablo Picasso,
+                  Leonardo da Vinci, and Vincent Van Gogh. I first started drawing
+                  as a child, flipping through my favorite comic books and
+                  creating sketches of my own.
+                </p>
+                <p>
+                  I grew up in South Florida, in a home where creativity was
+                  always encouraged. In high school, I began creating portraits
+                  and found a passion for capturing people through acrylics and
+                  oil pastels.
+                </p>
+              </div>
+            </div>
 
-            <div
-              aria-hidden="true"
-              className="absolute -bottom-8 -right-6 h-52 w-52 rounded-full bg-olive/15 blur-3xl"
-            />
-
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-secondary shadow-lg">
-              <Image
-                src="/images/nati-aboutme-pic.png"
-                alt="Nati Salinas"
-                fill
-                priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1023px) 70vw, 448px"
-                className="object-cover object-center"
+            <div className="relative mx-auto mt-10 aspect-square w-full max-w-sm lg:mt-0 lg:max-w-[22rem]">
+              <div
+                aria-hidden="true"
+                className="absolute -left-6 -top-6 h-44 w-44 rounded-full bg-rose/20 blur-3xl"
               />
+
+              <div
+                aria-hidden="true"
+                className="absolute -bottom-8 -right-6 h-52 w-52 rounded-full bg-olive/15 blur-3xl"
+              />
+
+              <div className="relative h-full w-full overflow-hidden rounded-full bg-secondary shadow-lg">
+                <Image
+                  src="/images/nati-aboutme-pic.png"
+                  alt="Nati Salinas"
+                  fill
+                  priority
+                  sizes="(max-width: 1023px) 384px, 352px"
+                  className="object-cover object-center"
+                />
+              </div>
             </div>
           </div>
 
           <div className="mt-10 max-w-3xl">
             <div className="space-y-5 text-lg leading-8 text-muted-foreground">
-              <p>
-                I love blending realism with abstract visuals and bold colors.
-                My favorite artists include Salvador Dali, Pablo Picasso,
-                Leonardo da Vinci, and Vincent Van Gogh. I first started drawing
-                as a child, flipping through my favorite comic books and
-                creating sketches of my own.
-              </p>
-              <p>
-                I grew up in South Florida, in a home where creativity was
-                always encouraged. In high school, I began creating portraits
-                and found a passion for capturing people through acrylics and
-                oil pastels.
-              </p>
               <p>
                 Music has always been a big part of my life and a source of
                 inspiration for my art. I grew up listening to The Beatles and
