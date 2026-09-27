@@ -78,15 +78,6 @@ export default function GalleryPage() {
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-olive">
             Gallery
           </p>
-
-          <h1 className="mt-4 font-heading text-5xl font-semibold text-olive-dark sm:text-6xl">
-            Stories told through color.
-          </h1>
-
-          <p className="mt-5 text-lg leading-8 text-muted-foreground">
-            A collection of paintings and illustrations inspired by memories,
-            music, movement, and the moments that stay with me.
-          </p>
         </div>
 
         {/* The World of Rosa */}
@@ -99,8 +90,7 @@ export default function GalleryPage() {
               The World of Rosa
             </h2>
             <p className="mt-4 text-lg leading-8 text-muted-foreground">
-              An evolving collection where each Rosa captures a different
-              memory, feeling, or chapter of life.
+              An evolving collection where each rose captures a different story.
             </p>
           </div>
 
@@ -117,8 +107,7 @@ export default function GalleryPage() {
               Other Works
             </h2>
             <p className="mt-4 text-lg leading-8 text-muted-foreground">
-              A collection of paintings, portraits, murals, and creative work
-              beyond the World of Rosa.
+              A collection of creative work beyond the World of Rosa.
             </p>
           </div>
 
