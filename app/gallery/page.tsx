@@ -33,7 +33,7 @@ const otherArtworks = [
     medium: "Acrylic on Canvas",
     dimensions: "30 × 15 in",
     year: "2017",
-  }
+  },
   {
     title: "Freddie Mercury",
     image: "/images/artwork/freddie_trippy.png",
