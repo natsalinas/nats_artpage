@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 type ArtworkCardProps = {
   title: string;
@@ -17,31 +18,44 @@ export function ArtworkCard({
   dimensions,
   year,
 }: ArtworkCardProps) {
+  const inquiryHref = `/commissions?artwork=${encodeURIComponent(title)}`;
+
   return (
-    <article>
+    <article className="flex h-full flex-col">
       {/* Artwork */}
-      <div className="flex items-center justify-center">
+      <div className="relative flex aspect-[4/5] items-center justify-center overflow-hidden rounded-[1.75rem] bg-secondary/30 p-4 sm:p-5">
         <Image
           src={image}
           alt={imageAlt}
-          width={1400}
-          height={1800}
-          sizes="(max-width: 640px) 72vw, (max-width: 1024px) 60vw, 32vw"
-          className="h-auto max-h-[650px] w-auto max-w-full object-contain"
+          fill
+          sizes="(max-width: 639px) calc(100vw - 48px), (max-width: 1023px) 45vw, 30vw"
+          className="object-contain p-4 sm:p-5"
         />
       </div>
 
       {/* Artwork Information */}
-      <div className="mt-5">
-        <h2 className="font-heading text-2xl font-medium text-foreground">
+      <div className="mt-5 flex flex-1 flex-col">
+        <h3 className="font-heading text-2xl font-medium text-foreground">
           {title}
-        </h2>
+        </h3>
 
-        <p className="mt-1 text-sm leading-6 text-muted-foreground">
+        <p className="mt-2 text-sm leading-6 text-muted-foreground">
           {medium}
-          {dimensions ? `, ${dimensions}` : ""}
-          {year ? `, ${year}.` : ""}
+          {dimensions ? ` · ${dimensions}` : ""}
+          {year ? ` · ${year}` : ""}
         </p>
+
+        <div className="mt-4">
+          <Link
+            href={inquiryHref}
+            className="inline-flex items-center text-sm font-semibold text-rose-dark transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          >
+            Inquire about this piece
+            <span aria-hidden="true" className="ml-2">
+              →
+            </span>
+          </Link>
+        </div>
       </div>
     </article>
   );
