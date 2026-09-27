@@ -51,10 +51,9 @@ export default function AboutPage() {
                   and creating sketches of my own.
                 </p>
                 <p>
-                  I grew up in South Florida, in a home where creativity was
-                  always encouraged. In high school, I began creating portraits
-                  and found a passion for capturing people through acrylics and
-                  oil pastels.
+                  I grew up in a home where creativity was always encouraged. In
+                  high school, I began creating portraits and found a passion
+                  for capturing people through acrylics and oil pastels.
                 </p>
               </div>
             </div>
