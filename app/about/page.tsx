@@ -30,8 +30,8 @@ export default function AboutPage() {
 
             <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-secondary shadow-lg">
               <Image
-                src="/images/nati-about.JPG"
-                alt="Nati Salinas dancing at an outdoor event"
+                src="/images/nati-aboutme-pic.png"
+                alt="Nati Salinas"
                 fill
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1280px) 70vw, 700px"
@@ -58,11 +58,10 @@ export default function AboutPage() {
               <p>
                 Music has always been a big part of my life and a source of
                 inspiration for my art. I grew up listening to The Beatles and
-                loving how songs like Strawberry Fields Forever and Lucy in the
-                Sky with Diamonds could take me into completely different
-                worlds. My parents were always supportive of my creativity, and
-                before leaving for college, I painted a mural in their home
-                celebrating the music I grew up with.
+                Pink Floyd and loving how their music could take me into
+                completely different worlds. My parents were always supportive
+                of my creativity, and before leaving for college, I painted a
+                mural in their home celebrating the music I grew up with.
               </p>
               <div className="mx-auto my-8 w-full max-w-2xl overflow-hidden rounded-[2rem] shadow-lg">
                 <Image
@@ -79,6 +78,16 @@ export default function AboutPage() {
                 going to shows, and being surrounded by the music, colors,
                 movement, and energy of it all.
               </p>
+
+              <div className="relative mx-auto my-8 aspect-[4/5] w-full max-w-2xl overflow-hidden rounded-[2rem] bg-secondary shadow-lg">
+                <Image
+                  src="/images/nati-about.JPG"
+                  alt="Nati Salinas dancing at an outdoor event"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 672px"
+                  className="object-cover object-center"
+                />
+              </div>
 
               <p>
                 My artwork is a way for me to romanticize everyday life and turn
