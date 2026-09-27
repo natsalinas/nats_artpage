@@ -11,9 +11,9 @@ export function Hero() {
             Nati Salinas · Artist
           </p>
 
-          <h2 className="font-heading text-4xl font-semibold leading-tight text-olive-dark sm:text-5xl lg:text-6xl">
+          <h1 className="font-heading text-5xl font-semibold leading-tight text-olive-dark sm:text-6xl lg:text-7xl">
             Welcome to my creative world.
-          </h2>
+          </h1>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <Link
