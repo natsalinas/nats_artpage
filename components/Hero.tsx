@@ -8,17 +8,12 @@ export function Hero() {
         {/* Left Content */}
         <div className="max-w-xl">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-olive">
-            Orlando-Based Artist
+            Nati Salinas · Artist
           </p>
 
           <h1 className="font-heading text-5xl font-semibold leading-tight text-olive-dark sm:text-6xl lg:text-7xl">
-            The World of Rosa
+            Welcome to my creative world.
           </h1>
-
-          <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            Through the world of Rosa, I explore growth, the divine feminine,
-            and the beauty of embracing each moment.
-          </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <Link

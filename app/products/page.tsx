@@ -2,28 +2,12 @@ import { ProductCard } from "@/components/ProductCard";
 
 const products = [
   {
-    id: "rosa-espanola-8x10-print",
-    title: "Rosa Española",
-    productType: "Art Print",
-    size: "8 × 10 in",
-    image: "/images/artwork/spain.jpg",
-    alt: "Rosa Española art print",
-  },
-  {
-    id: "la-dj-8x10-print",
-    title: "La DJ",
-    productType: "Art Print",
-    size: "8 × 10 in",
-    image: "/images/artwork/la-dj.PNG",
-    alt: "La DJ art print",
-  },
-  {
-    id: "la-dj-11x14-canvas",
-    title: "La DJ",
+    id: "strawberry-fields-11x14-canvas",
+    title: "Strawberry Fields",
     productType: "Canvas",
     size: "11 × 14 in",
-    image: "/images/artwork/la-dj.PNG",
-    alt: "La DJ canvas",
+    image: "/images/artwork/strawberry_fields.png",
+    alt: "Rosa in the strawberry fields",
   },
 ];
 

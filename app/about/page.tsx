@@ -17,7 +17,7 @@ export default function AboutPage() {
             </h1>
           </div>
 
-          <div className="relative mt-10 mx-auto max-w-2xl">
+          <div className="relative mt-10 mx-auto aspect-[4/5] w-full max-w-sm">
             <div
               aria-hidden="true"
               className="absolute -left-6 -top-6 h-44 w-44 rounded-full bg-rose/20 blur-3xl"
@@ -28,13 +28,13 @@ export default function AboutPage() {
               className="absolute -bottom-8 -right-6 h-52 w-52 rounded-full bg-olive/15 blur-3xl"
             />
 
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-secondary shadow-lg">
+            <div className="relative h-full w-full overflow-hidden rounded-[2rem] bg-secondary shadow-lg">
               <Image
-                src="/images/nati-about.JPG"
-                alt="Nati Salinas dancing at an outdoor event"
+                src="/images/nati-aboutme-pic.png"
+                alt="Nati Salinas"
                 fill
                 priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 70vw, 700px"
+                sizes="384px"
                 className="object-cover object-center"
               />
             </div>
@@ -43,50 +43,59 @@ export default function AboutPage() {
           <div className="mt-10 max-w-3xl">
             <div className="space-y-5 text-lg leading-8 text-muted-foreground">
               <p>
-                I love blending realism with abstract visuals and bold colors. I
-                first started drawing as a child, flipping through my favorite
-                comic books and creating sketches of my own.
-              </p>
-              <p>
-                I grew up in South Florida with my Colombian family, in a home
-                where creativity was always encouraged. In high school, I began
-                creating portraits and found a passion for capturing people
-                through acrylics and oil pastels.
-              </p>
-              <p>
-                Music has always been a big part of my life and a source of
-                inspiration for my art. I grew up listening to The Beatles and
-                loving how songs like Strawberry Fields Forever and Lucy in the
-                Sky with Diamonds could take me into completely different
-                worlds. My parents were always supportive of my creativity, and
-                before leaving for college, I painted a mural in their home
-                celebrating the music I grew up with.
-              </p>
-              <div className="mx-auto my-8 w-full max-w-2xl overflow-hidden rounded-[2rem] shadow-lg">
-                <Image
-                  src="/images/artwork/home_mural.png"
-                  alt="Home mural painted by Nati Salinas"
-                  width={1200}
-                  height={800}
-                  sizes="(max-width: 768px) 100vw, 672px"
-                  className="h-auto w-full"
-                />
-              </div>
-              <p>
-                These days, I&apos;ve also found a love for EDM. I love dancing,
-                going to shows, and being surrounded by the music, colors,
-                movement, and energy of it all.
-              </p>
-
-              <p>
-                My artwork is a way for me to romanticize everyday life and turn
-                the experiences, people, places, and emotions that mean
-                something to me into something I can hold onto. That idea has
-                grown into The World of Rosa, where each Rosa captures a
-                different story.
+                I love blending realism with abstract visuals and bold colors.
+                My favorite artists include Salvador Dali, Pablo Picasso,
+                Leonardo da Vinci, and Vincent Van Gogh. I first started drawing
+                as a child, flipping through my favorite comic books and
+                creating sketches of my own. In high school, I found a passion
+                for capturing people through acrylics and oil pastels.
               </p>
             </div>
+          </div>
 
+          {/* Music and mural */}
+          <div className="mt-16 max-w-3xl">
+            <div className="overflow-hidden rounded-[2rem] shadow-lg">
+              <Image
+                src="/images/artwork/home_mural.png"
+                alt="Home mural painted by Nati Salinas"
+                width={1200}
+                height={800}
+                sizes="(max-width: 768px) 100vw, 768px"
+                className="h-auto w-full"
+              />
+            </div>
+            <p className="mt-8 text-lg leading-8 text-muted-foreground">
+              Music has always been a big part of my life and a source of
+              inspiration for my art. I grew up listening to The Beatles and
+              Pink Floyd and loving how their music could take me into
+              completely different worlds. My parents were always supportive of
+              my creativity, and before leaving for college, I painted a mural
+              in their home celebrating the music I grew up with.
+            </p>
+          </div>
+
+          {/* EDM and dancing */}
+          <div className="mt-16 max-w-3xl">
+            <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-[2rem] bg-secondary shadow-lg">
+              <Image
+                src="/images/nati-about.JPG"
+                alt="Nati Salinas dancing at an outdoor event"
+                fill
+                sizes="(max-width: 768px) 100vw, 384px"
+                className="object-cover object-center"
+              />
+            </div>
+
+            <p className="mt-8 text-lg leading-8 text-muted-foreground">
+              These days, I&apos;ve also found a love for EDM. I love dancing,
+              going to shows, and being surrounded by the music, colors,
+              movement, and energy of it all. My artwork is a way for me to
+              romanticize everyday life.
+            </p>
+          </div>
+
+          <div className="mt-16 max-w-3xl">
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
                 href="/gallery"
@@ -108,8 +117,8 @@ export default function AboutPage() {
 
       {/* About Rosa */}
       <section className="bg-secondary/50 px-6 py-16 sm:py-20 lg:px-8 lg:py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2 lg:gap-16">
-          <div className="max-w-2xl">
+        <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:items-center lg:gap-16">
+          <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-olive">
               About Rosa
             </p>
@@ -118,7 +127,7 @@ export default function AboutPage() {
               How the World of Rosa began.
             </h2>
 
-            <div className="mt-6 space-y-5 text-lg leading-8 text-muted-foreground">
+            <div className="mt-8 space-y-5 text-lg leading-8 text-muted-foreground">
               <p>
                 Rosa began with an image I discovered on Pinterest—a feminine
                 figure with a rose in place of her head. I came across several
@@ -129,16 +138,7 @@ export default function AboutPage() {
               <p>
                 I couldn&apos;t stop wondering who she was or what stories she
                 had to tell. So I began painting my own interpretations and
-                bringing Rosa into the experiences that shape my everyday
-                life—dancing, traveling, creating, reflecting, and embracing the
-                present moment.
-              </p>
-
-              <p>
-                Over time, Rosa grew beyond a single figure and became an
-                evolving world of characters, emotions, and stories. Every rose
-                has her own personality and represents a different memory,
-                feeling, or chapter of life.
+                bringing Rosa into my everyday life.
               </p>
 
               <p>The World of Rosa is still growing, one story at a time.</p>
@@ -170,21 +170,14 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="relative mx-auto w-full max-w-lg">
-            <div
-              aria-hidden="true"
-              className="absolute -right-6 -top-6 h-44 w-44 rounded-full bg-rose/20 blur-3xl"
+          <div className="relative mx-auto mt-10 aspect-[4/5] w-full max-w-lg overflow-hidden rounded-[2rem] bg-background shadow-lg lg:mt-0">
+            <Image
+              src="/images/about-rosa.jpg"
+              alt="Nati Salinas holding one of her Rosa paintings"
+              fill
+              sizes="(max-width: 1023px) 100vw, 40vw"
+              className="object-cover object-top"
             />
-
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-background shadow-lg">
-              <Image
-                src="/images/about-rosa.jpg"
-                alt="Nati Salinas holding one of her Rosa paintings"
-                fill
-                sizes="(max-width: 1024px) 100vw, 45vw"
-                className="object-cover object-top"
-              />
-            </div>
           </div>
         </div>
       </section>
