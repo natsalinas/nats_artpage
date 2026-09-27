@@ -141,11 +141,6 @@ export default function AboutPage() {
                 bringing Rosa into my everyday life.
               </p>
 
-              <p>
-                Every rose has her own personality and represents a different
-                memory, feeling, or chapter of life.
-              </p>
-
               <p>The World of Rosa is still growing, one story at a time.</p>
             </div>
 
