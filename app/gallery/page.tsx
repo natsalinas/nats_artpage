@@ -2,27 +2,25 @@ import { ArtworkCard } from "@/components/ArtworkCard";
 
 const artworks = [
   {
+    title: "Strawberry Fields",
+    image: "/images/artwork/strawberry_fields.png",
+    imageAlt: "Rosa in the Strawberry Fields",
+    medium: "Acrylic on Canvas",
+    dimensions: "11 × 14 in",
+    year: "2026",
+  },
+  {
     title: "Rosa Española",
     image: "/images/artwork/spain.jpg",
-    imageAlt: "Rose-headed dancer inspired by Spain and flamenco",
+    imageAlt: "Rosa in Spain",
     medium: "Digital Illustration",
-    dimensions: "8 × 10 in",
     year: "2026",
   },
   {
     title: "La DJ",
     image: "/images/artwork/la-dj.PNG",
-    imageAlt: "Rose-headed DJ mixing music",
-    medium: "Acrylic on Canvas",
-    dimensions: "11 × 14 in",
-    year: "2026",
-  },
-  {
-    title: "Rosa y el Espejo",
-    image: "/images/artwork/el-espejo.jpg",
-    imageAlt: "Rosa looking into a mirror",
-    medium: "Acrylic on Canvas",
-    dimensions: "11 × 14 in",
+    imageAlt: "La DJ Rosa",
+    medium: "Digitall Illustration",
     year: "2026",
   },
 ];
