@@ -6,7 +6,7 @@ const products = [
     title: "Strawberry Fields",
     productType: "Canvas",
     size: "11 × 14 in",
-    image: "/images/artwork/strawberry_fieldsd.png",
+    image: "/images/artwork/strawberry_fields.png",
     alt: "Rosa in the strawberry fields",
   },
 ];
