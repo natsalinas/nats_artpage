@@ -43,15 +43,17 @@ export default function AboutPage() {
           <div className="mt-10 max-w-3xl">
             <div className="space-y-5 text-lg leading-8 text-muted-foreground">
               <p>
-                I love blending realism with abstract visuals and bold colors. I
-                first started drawing as a child, flipping through my favorite
-                comic books and creating sketches of my own.
+                I love blending realism with abstract visuals and bold colors.
+                My favorite artists include Salvador Dali, Pablo Picasso,
+                Leonardo Davinici, and Vincent Van Gogh. I first started drawing
+                as a child, flipping through my favorite comic books and
+                creating sketches of my own.
               </p>
               <p>
-                I grew up in South Florida with my Colombian family, in a home
-                where creativity was always encouraged. In high school, I began
-                creating portraits and found a passion for capturing people
-                through acrylics and oil pastels.
+                I grew up in South Florida, in a home where creativity was
+                always encouraged. In high school, I began creating portraits
+                and found a passion for capturing people through acrylics and
+                oil pastels.
               </p>
               <p>
                 Music has always been a big part of my life and a source of
@@ -81,9 +83,7 @@ export default function AboutPage() {
               <p>
                 My artwork is a way for me to romanticize everyday life and turn
                 the experiences, people, places, and emotions that mean
-                something to me into something I can hold onto. That idea has
-                grown into The World of Rosa, where each Rosa captures a
-                different story.
+                something to me into something I can hold onto.
               </p>
             </div>
 
@@ -129,16 +129,12 @@ export default function AboutPage() {
               <p>
                 I couldn&apos;t stop wondering who she was or what stories she
                 had to tell. So I began painting my own interpretations and
-                bringing Rosa into the experiences that shape my everyday
-                life—dancing, traveling, creating, reflecting, and embracing the
-                present moment.
+                bringing Rosa into my everyday life.
               </p>
 
               <p>
-                Over time, Rosa grew beyond a single figure and became an
-                evolving world of characters, emotions, and stories. Every rose
-                has her own personality and represents a different memory,
-                feeling, or chapter of life.
+                Every rose has her own personality and represents a different
+                memory, feeling, or chapter of life.
               </p>
 
               <p>The World of Rosa is still growing, one story at a time.</p>
