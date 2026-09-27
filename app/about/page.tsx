@@ -45,7 +45,7 @@ export default function AboutPage() {
               <p>
                 I love blending realism with abstract visuals and bold colors.
                 My favorite artists include Salvador Dali, Pablo Picasso,
-                Leonardo Davinici, and Vincent Van Gogh. I first started drawing
+                Leonardo da Vinci, and Vincent Van Gogh. I first started drawing
                 as a child, flipping through my favorite comic books and
                 creating sketches of my own.
               </p>
