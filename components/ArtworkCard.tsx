@@ -18,7 +18,7 @@ export function ArtworkCard({
   dimensions,
   year,
 }: ArtworkCardProps) {
-  const inquiryHref = `/commissions?artwork=${encodeURIComponent(title)}`;
+  const inquiryHref = `/inquire?artwork=${encodeURIComponent(title)}`;
 
   return (
     <article className="flex h-full flex-col">
