@@ -1,6 +1,6 @@
 import { ArtworkCard } from "@/components/ArtworkCard";
 
-const rosaArtworks = [
+const rosaOriginals = [
   {
     title: "Strawberry Fields",
     image: "/images/artwork/strawberry_fields.png",
@@ -10,6 +10,9 @@ const rosaArtworks = [
     year: "2026",
     price: "$100",
   },
+];
+
+const rosaDigitalWorks = [
   {
     title: "Rosa Española",
     image: "/images/artwork/spain.jpg",
@@ -108,7 +111,25 @@ export default function GalleryPage() {
             </p>
           </div>
 
-          <ArtworkGrid artworks={rosaArtworks} />
+          <div className="mt-12 sm:mt-14">
+            <h3 className="font-heading text-2xl font-semibold text-olive-dark sm:text-3xl">
+              Original Artwork
+            </h3>
+            <p className="mt-2 text-base leading-7 text-muted-foreground">
+              Original, hand-painted works from the World of Rosa.
+            </p>
+            <ArtworkGrid artworks={rosaOriginals} />
+          </div>
+
+          <div className="mt-16 sm:mt-20">
+            <h3 className="font-heading text-2xl font-semibold text-olive-dark sm:text-3xl">
+              Digital Works
+            </h3>
+            <p className="mt-2 text-base leading-7 text-muted-foreground">
+              Digital illustrations exploring Rosa through different moments and stories.
+            </p>
+            <ArtworkGrid artworks={rosaDigitalWorks} />
+          </div>
         </section>
 
         {/* Other Works */}
