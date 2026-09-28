@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ArtworkCard } from "@/components/ArtworkCard";
 
 const rosaOriginals = [
@@ -164,6 +165,18 @@ export default function GalleryPage() {
           </div>
 
           <ArtworkGrid artworks={murals} />
+
+          <div className="mt-10">
+            <Link
+              href="/commissions"
+              className="inline-flex items-center font-semibold text-rose-dark transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+            >
+              Interested in a mural?
+              <span aria-hidden="true" className="ml-2">
+                →
+              </span>
+            </Link>
+          </div>
         </section>
 
         <section className="mt-20 sm:mt-24 lg:mt-28">
