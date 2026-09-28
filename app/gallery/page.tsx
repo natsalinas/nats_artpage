@@ -126,7 +126,7 @@ export default function GalleryPage() {
               Digital Works
             </h3>
             <p className="mt-2 text-base leading-7 text-muted-foreground">
-              Digital illustrations exploring Rosa through different moments and stories.
+              Digital illustrations exploring Rosa&apos;s World.
             </p>
             <ArtworkGrid artworks={rosaDigitalWorks} />
           </div>
