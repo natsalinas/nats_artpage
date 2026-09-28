@@ -42,7 +42,7 @@ const otherArtworks = [
   },
   {
     title: "Abbey Road",
-    image: "/images/artwork/abbey_road.png",
+    image: "/images/artwork/abbey_road.jpg",
     imageAlt: "The Beatles walking down Abbey Road",
     medium: "Acrylic on Canvas",
     dimensions: "30 × 15 in",
@@ -162,7 +162,8 @@ export default function GalleryPage() {
               Murals
             </h2>
             <p className="mt-4 text-lg leading-8 text-muted-foreground">
-              Hand-painted murals created for homes, schools, and creative spaces.
+              Hand-painted murals created for homes, schools, and creative
+              spaces.
             </p>
             <Link
               href="/commissions"
