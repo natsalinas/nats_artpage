@@ -1,6 +1,6 @@
 import { ArtworkCard } from "@/components/ArtworkCard";
 
-const rosaArtworks = [
+const rosaOriginals = [
   {
     title: "Strawberry Fields",
     image: "/images/artwork/strawberry_fields.png",
@@ -8,8 +8,11 @@ const rosaArtworks = [
     medium: "Acrylic on Canvas",
     dimensions: "11 × 14 in",
     year: "2026",
-    showInquiry: true,
+    price: "$100",
   },
+];
+
+const rosaDigitalWorks = [
   {
     title: "Rosa Española",
     image: "/images/artwork/spain.jpg",
@@ -34,7 +37,7 @@ const otherArtworks = [
     medium: "Acrylic on Canvas",
     dimensions: "12 × 12 in",
     year: "2017",
-    showInquiry: true,
+    price: "$50",
   },
   {
     title: "Abbey Road",
@@ -43,7 +46,7 @@ const otherArtworks = [
     medium: "Acrylic on Canvas",
     dimensions: "30 × 15 in",
     year: "2026",
-    showInquiry: true,
+    price: "$200",
   },
   {
     title: "Home Mural",
@@ -61,7 +64,7 @@ type GalleryArtwork = {
   medium: string;
   dimensions?: string;
   year?: string;
-  showInquiry?: boolean;
+  price?: string;
 };
 
 function ArtworkGrid({ artworks }: { artworks: GalleryArtwork[] }) {
@@ -76,7 +79,7 @@ function ArtworkGrid({ artworks }: { artworks: GalleryArtwork[] }) {
           medium={artwork.medium}
           dimensions={artwork.dimensions}
           year={artwork.year}
-          showInquiry={artwork.showInquiry}
+          price={artwork.price}
         />
       ))}
     </div>
@@ -108,7 +111,7 @@ export default function GalleryPage() {
             </p>
           </div>
 
-          <ArtworkGrid artworks={rosaArtworks} />
+          <ArtworkGrid artworks={rosaOriginals} />
         </section>
 
         {/* Other Works */}
@@ -126,6 +129,23 @@ export default function GalleryPage() {
           </div>
 
           <ArtworkGrid artworks={otherArtworks} />
+        </section>
+
+        {/* Digital Works */}
+        <section className="mt-20 sm:mt-24 lg:mt-28">
+          <div className="max-w-2xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-rose-dark">
+              Digital Art
+            </p>
+            <h2 className="mt-3 font-heading text-4xl font-semibold text-olive-dark sm:text-5xl">
+              Digital Works
+            </h2>
+            <p className="mt-4 text-lg leading-8 text-muted-foreground">
+              Digital illustrations exploring Rosa&apos;s World.
+            </p>
+          </div>
+
+          <ArtworkGrid artworks={rosaDigitalWorks} />
         </section>
       </div>
     </main>

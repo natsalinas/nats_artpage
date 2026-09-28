@@ -102,7 +102,7 @@ export function ArtworkInquiryForm({ artwork }: ArtworkInquiryFormProps) {
           Message
         </label>
         <p className="mt-1 text-sm text-muted-foreground">
-          Ask about availability, pricing, prints, or anything else you&apos;d like to know about this piece.
+          Ask about anything you&apos;d like to know about this piece.
         </p>
         <textarea
           id="message"
