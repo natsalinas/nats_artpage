@@ -11,7 +11,7 @@ type ArtworkCardProps = {
   medium: string;
   dimensions?: string;
   year?: string;
-  showInquiry?: boolean;
+  price?: string;
 };
 
 export function ArtworkCard({
@@ -21,7 +21,7 @@ export function ArtworkCard({
   medium,
   dimensions,
   year,
-  showInquiry = false,
+  price,
 }: ArtworkCardProps) {
   const [isOpen, setIsOpen] = useState(false);
   const inquiryHref = `/inquire?artwork=${encodeURIComponent(title)}`;
@@ -73,13 +73,14 @@ export function ArtworkCard({
             {year ? ` · ${year}` : ""}
           </p>
 
-          {showInquiry && (
+          {price && (
             <div className="mt-4">
+              <p className="text-lg font-semibold text-foreground">{price}</p>
               <Link
                 href={inquiryHref}
-                className="inline-flex items-center text-sm font-semibold text-rose-dark transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                className="mt-2 inline-flex items-center text-sm font-semibold text-rose-dark transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
               >
-                Inquire about this piece
+                Interested in this piece?
                 <span aria-hidden="true" className="ml-2">
                   →
                 </span>
@@ -94,7 +95,7 @@ export function ArtworkCard({
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 sm:p-8"
           role="dialog"
           aria-modal="true"
-          aria-label={`${title} enlarged artwork`}
+          aria-label={`${title} enlarged view`}
           onClick={() => setIsOpen(false)}
         >
           <button
