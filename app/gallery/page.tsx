@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ArtworkCard } from "@/components/ArtworkCard";
 
 const rosaOriginals = [
@@ -49,9 +50,33 @@ const otherArtworks = [
     price: "$200",
   },
   {
+    title: "Lana Del Rey Hoodie",
+    image: "/images/artwork/lana_fabric.jpg",
+    imageAlt: "Hand-painted Lana Del Rey artwork on a hoodie",
+    medium: "Hand-Painted Fabric",
+    year: "2015",
+  },
+];
+
+const murals = [
+  {
     title: "Home Mural",
     image: "/images/artwork/home_mural.png",
     imageAlt: "Music-inspired mural painted in the artist's family home",
+    medium: "Mural",
+    year: "2015",
+  },
+  {
+    title: "School Mural",
+    image: "/images/artwork/charter_mural.jpg",
+    imageAlt: "Beach scene mural painted at school",
+    medium: "Mural",
+    year: "2015",
+  },
+  {
+    title: "Spider-Man Mural",
+    image: "/images/artwork/spidey_mural_cropped.jpg",
+    imageAlt: "Spider-Man mural",
     medium: "Mural",
     year: "2015",
   },
@@ -90,14 +115,12 @@ export default function GalleryPage() {
   return (
     <main className="px-6 py-16 sm:py-20 lg:px-8 lg:py-24">
       <div className="mx-auto max-w-7xl">
-        {/* Gallery Introduction */}
         <div className="max-w-2xl">
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-olive">
             Gallery
           </p>
         </div>
 
-        {/* The World of Rosa */}
         <section className="mt-16 sm:mt-20 lg:mt-24">
           <div className="max-w-2xl">
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-rose-dark">
@@ -114,7 +137,6 @@ export default function GalleryPage() {
           <ArtworkGrid artworks={rosaOriginals} />
         </section>
 
-        {/* Other Works */}
         <section className="mt-20 sm:mt-24 lg:mt-28">
           <div className="max-w-2xl">
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-olive">
@@ -131,7 +153,31 @@ export default function GalleryPage() {
           <ArtworkGrid artworks={otherArtworks} />
         </section>
 
-        {/* Digital Works */}
+        <section className="mt-20 sm:mt-24 lg:mt-28">
+          <div className="max-w-2xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-olive">
+              Large-Scale Work
+            </p>
+            <h2 className="mt-3 font-heading text-4xl font-semibold text-olive-dark sm:text-5xl">
+              Murals
+            </h2>
+            <p className="mt-4 text-lg leading-8 text-muted-foreground">
+              Hand-painted murals created for homes, schools, and creative spaces.
+            </p>
+            <Link
+              href="/commissions"
+              className="mt-5 inline-flex items-center font-semibold text-rose-dark transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+            >
+              Interested in a mural?
+              <span aria-hidden="true" className="ml-2">
+                →
+              </span>
+            </Link>
+          </div>
+
+          <ArtworkGrid artworks={murals} />
+        </section>
+
         <section className="mt-20 sm:mt-24 lg:mt-28">
           <div className="max-w-2xl">
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-rose-dark">
