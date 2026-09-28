@@ -74,7 +74,7 @@ const murals = [
   },
   {
     title: "Spider-Man Mural",
-    image: "/images/artwork/spidey_mural.jpg",
+    image: "/images/artwork/spidey_mural_cropped.jpg",
     imageAlt: "Spider-Man mural",
     medium: "Mural",
   },
@@ -162,14 +162,9 @@ export default function GalleryPage() {
             <p className="mt-4 text-lg leading-8 text-muted-foreground">
               Hand-painted murals created for homes, schools, and creative spaces.
             </p>
-          </div>
-
-          <ArtworkGrid artworks={murals} />
-
-          <div className="mt-10">
             <Link
               href="/commissions"
-              className="inline-flex items-center font-semibold text-rose-dark transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              className="mt-5 inline-flex items-center font-semibold text-rose-dark transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             >
               Interested in a mural?
               <span aria-hidden="true" className="ml-2">
@@ -177,6 +172,8 @@ export default function GalleryPage() {
               </span>
             </Link>
           </div>
+
+          <ArtworkGrid artworks={murals} />
         </section>
 
         <section className="mt-20 sm:mt-24 lg:mt-28">
