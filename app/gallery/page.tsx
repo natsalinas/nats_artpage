@@ -66,7 +66,7 @@ const murals = [
   },
   {
     title: "School Mural",
-    image: "/images/artwork/school_mural.JPG",
+    image: "/images/artwork/charter_mural.jpg",
     imageAlt: "Beach scene mural painted at school",
     medium: "Mural",
     year: "2015",
