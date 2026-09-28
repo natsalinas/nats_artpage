@@ -78,12 +78,9 @@ export function ArtworkCard({
               <p className="text-lg font-semibold text-foreground">{price}</p>
               <Link
                 href={inquiryHref}
-                className="mt-2 inline-flex items-center text-sm font-semibold text-rose-dark transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                className="mt-4 inline-flex items-center justify-center rounded-full bg-olive-dark px-5 py-2.5 text-sm font-semibold text-background shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
               >
-                Interested in this piece?
-                <span aria-hidden="true" className="ml-2">
-                  →
-                </span>
+                Purchase
               </Link>
             </div>
           )}
