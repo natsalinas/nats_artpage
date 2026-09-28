@@ -8,7 +8,7 @@ const rosaArtworks = [
     medium: "Acrylic on Canvas",
     dimensions: "11 × 14 in",
     year: "2026",
-    showInquiry: true,
+    price: "$100",
   },
   {
     title: "Rosa Española",
@@ -34,7 +34,7 @@ const otherArtworks = [
     medium: "Acrylic on Canvas",
     dimensions: "12 × 12 in",
     year: "2017",
-    showInquiry: true,
+    price: "$50",
   },
   {
     title: "Abbey Road",
@@ -43,7 +43,7 @@ const otherArtworks = [
     medium: "Acrylic on Canvas",
     dimensions: "30 × 15 in",
     year: "2026",
-    showInquiry: true,
+    price: "$200",
   },
   {
     title: "Home Mural",
@@ -61,7 +61,7 @@ type GalleryArtwork = {
   medium: string;
   dimensions?: string;
   year?: string;
-  showInquiry?: boolean;
+  price?: string;
 };
 
 function ArtworkGrid({ artworks }: { artworks: GalleryArtwork[] }) {
@@ -76,7 +76,7 @@ function ArtworkGrid({ artworks }: { artworks: GalleryArtwork[] }) {
           medium={artwork.medium}
           dimensions={artwork.dimensions}
           year={artwork.year}
-          showInquiry={artwork.showInquiry}
+          price={artwork.price}
         />
       ))}
     </div>
