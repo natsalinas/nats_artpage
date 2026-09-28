@@ -50,10 +50,11 @@ const otherArtworks = [
     price: "$200",
   },
   {
-    title: "Lana",
+    title: "Lana Del Rey Hoodie",
     image: "/images/artwork/lana_fabric.jpg",
-    imageAlt: "Hand-painted artwork on a hoodie",
-    medium: "Fabric Painting",
+    imageAlt: "Hand-painted Lana Del Rey artwork on a hoodie",
+    medium: "Hand-Painted Fabric",
+    year: "2015",
   },
 ];
 
@@ -77,6 +78,7 @@ const murals = [
     image: "/images/artwork/spidey_mural_cropped.jpg",
     imageAlt: "Spider-Man mural",
     medium: "Mural",
+    year: "2015",
   },
 ];
 
