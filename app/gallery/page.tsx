@@ -54,7 +54,7 @@ const otherArtworks = [
     processLinkLabel: "Watch the painting come to life",
   },
   {
-    title: "Lana Del Rey Pull Over",
+    title: "Lana Del Rey Pullover",
     image: "/images/artwork/lana_fabric.jpg",
     imageAlt: "Hand-painted Lana Del Rey artwork on a hoodie",
     medium: "Hand-Painted Fabric",
