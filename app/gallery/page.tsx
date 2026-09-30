@@ -50,7 +50,7 @@ const otherArtworks = [
     price: "$200",
   },
   {
-    title: "Lana Del Rey Hoodie",
+    title: "Lana Del Rey Pullover",
     image: "/images/artwork/lana_fabric.jpg",
     imageAlt: "Hand-painted Lana Del Rey artwork on a hoodie",
     medium: "Hand-Painted Fabric",
