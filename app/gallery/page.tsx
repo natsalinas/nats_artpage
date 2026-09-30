@@ -50,6 +50,8 @@ const otherArtworks = [
     dimensions: "30 × 15 in",
     year: "2026",
     price: "$200",
+    processLink: "https://www.instagram.com/reel/DV_h1yrDY7Q/?stkn=eGlmeGRpZHIzdHcx",
+    processLinkLabel: "Watch the painting come to life",
   },
   {
     title: "Lana Del Rey Hoodie",
