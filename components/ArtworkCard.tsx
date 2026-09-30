@@ -12,6 +12,8 @@ type ArtworkCardProps = {
   dimensions?: string;
   year?: string;
   price?: string;
+  processLink?: string;
+  processLinkLabel?: string;
 };
 
 export function ArtworkCard({
@@ -22,6 +24,8 @@ export function ArtworkCard({
   dimensions,
   year,
   price,
+  processLink,
+  processLinkLabel = "Watch the painting come to life",
 }: ArtworkCardProps) {
   const [isOpen, setIsOpen] = useState(false);
   const inquiryHref = `/inquire?artwork=${encodeURIComponent(title)}`;
@@ -83,6 +87,20 @@ export function ArtworkCard({
                 Purchase
               </Link>
             </div>
+          )}
+
+          {processLink && (
+            <Link
+              href={processLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center font-semibold text-rose-dark transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+            >
+              {processLinkLabel}
+              <span aria-hidden="true" className="ml-2">
+                →
+              </span>
+            </Link>
           )}
         </div>
       </article>
