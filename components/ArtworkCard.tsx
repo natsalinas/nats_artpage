@@ -77,18 +77,6 @@ export function ArtworkCard({
             {year ? ` · ${year}` : ""}
           </p>
 
-          {price && (
-            <div className="mt-4">
-              <p className="text-lg font-semibold text-foreground">{price}</p>
-              <Link
-                href={inquiryHref}
-                className="mt-4 inline-flex items-center justify-center rounded-full bg-olive-dark px-5 py-2.5 text-sm font-semibold text-background shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-              >
-                Purchase
-              </Link>
-            </div>
-          )}
-
           {processLink && (
             <Link
               href={processLink}
@@ -101,6 +89,18 @@ export function ArtworkCard({
                 →
               </span>
             </Link>
+          )}
+
+          {price && (
+            <div className="mt-4">
+              <p className="text-lg font-semibold text-foreground">{price}</p>
+              <Link
+                href={inquiryHref}
+                className="mt-4 inline-flex items-center justify-center rounded-full bg-olive-dark px-5 py-2.5 text-sm font-semibold text-background shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              >
+                Purchase
+              </Link>
+            </div>
           )}
         </div>
       </article>
