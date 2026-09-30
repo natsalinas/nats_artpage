@@ -10,8 +10,6 @@ const rosaOriginals = [
     dimensions: "11 × 14 in",
     year: "2026",
     price: "$100",
-    processLink: "https://www.instagram.com/reel/DdzXFY8qASv/?stkn=djhodHBrNnQ0bXg0",
-    processLinkLabel: "Watch the painting come to life",
   },
 ];
 
@@ -50,8 +48,6 @@ const otherArtworks = [
     dimensions: "30 × 15 in",
     year: "2026",
     price: "$200",
-    processLink: "https://www.instagram.com/reel/DV_h1yrDY7Q/?stkn=eGlmeGRpZHIzdHcx",
-    processLinkLabel: "Watch the painting come to life",
   },
   {
     title: "Lana Del Rey Pullover",
@@ -94,8 +90,6 @@ type GalleryArtwork = {
   dimensions?: string;
   year?: string;
   price?: string;
-  processLink?: string;
-  processLinkLabel?: string;
 };
 
 function ArtworkGrid({ artworks }: { artworks: GalleryArtwork[] }) {
@@ -111,8 +105,6 @@ function ArtworkGrid({ artworks }: { artworks: GalleryArtwork[] }) {
           dimensions={artwork.dimensions}
           year={artwork.year}
           price={artwork.price}
-          processLink={artwork.processLink}
-          processLinkLabel={artwork.processLinkLabel}
         />
       ))}
     </div>
