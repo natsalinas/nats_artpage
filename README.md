@@ -1,8 +1,8 @@
-# Nati Salinas Art — The World of Rosa
+# Nati Salinas Art
 
-A full-stack artist portfolio and commission platform built with Next.js, React, TypeScript, and AWS.
+A full-stack artist portfolio built with Next.js, React, TypeScript, and AWS.
 
-The application provides a responsive storefront and portfolio experience while demonstrating full-stack software engineering concepts including REST API development, server-side form processing, cloud integrations, email automation, IAM-based service access, custom domain configuration, and automated deployments.
+The application provides a responsive portfolio experience while demonstrating full-stack software engineering concepts including REST API development, server-side form processing, cloud integrations, email automation, IAM-based service access, custom domain configuration, and automated deployments.
 
 Live Site: https://art.nati.studio
 
@@ -19,14 +19,10 @@ Live Site: https://art.nati.studio
 
 ## Features
 
-- Responsive artist portfolio
-- Horizontal artwork gallery
-- Product catalog
-- Multi-product purchase request form
+- Responsive navigation and mobile layouts
 - Custom art commission request form
 - Server-side form processing with Next.js API routes
 - Email notifications through Amazon SES
-- Responsive navigation and mobile layouts
 - Custom metadata, favicon, and social sharing image
 - Custom domain with HTTPS
 - Automated deployments from GitHub
