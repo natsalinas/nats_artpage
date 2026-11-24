@@ -43,12 +43,12 @@ export default function AboutPage() {
           <div className="mt-10 max-w-3xl">
             <div className="space-y-5 text-lg leading-8 text-muted-foreground">
               <p>
-                I love blending realism with abstract visuals and bold colors.
-                My favorite artists include Salvador Dali, Pablo Picasso,
-                Leonardo da Vinci, and Vincent Van Gogh. I first started drawing
-                as a child, flipping through my favorite comic books and
-                creating sketches of my own. In high school, I found a passion
-                for capturing people through acrylics and oil pastels.
+                Hey, I'm Nati. I first started drawing as a child, flipping
+                through my favorite illustrated books and eventually creating
+                continuations of those stories through drawings of my own. In
+                high school, I found a passion for capturing people through
+                acrylics and oil pastels. My favorite artists include Salvador
+                Dali, Pablo Picasso, Leonardo da Vinci, and Vincent Van Gogh.
               </p>
             </div>
           </div>
@@ -88,10 +88,10 @@ export default function AboutPage() {
             </div>
 
             <p className="mt-8 text-lg leading-8 text-muted-foreground">
-              These days, I&apos;ve also found a love for EDM. I love dancing,
-              going to shows, and being surrounded by the music, colors,
-              movement, and energy of it all. My artwork is a way for me to
-              romanticize everyday life.
+              As I grew older in my journey of self discovery, I found a love
+              for EDM. I love dancing, going to shows, and being surrounded by
+              the music, colors, movement, and energy of it all. My artwork is a
+              way for me to romanticize everyday life.
             </p>
           </div>
 
@@ -140,8 +140,6 @@ export default function AboutPage() {
                 had to tell. So I began painting my own interpretations and
                 bringing Rosa into my everyday life.
               </p>
-
-              <p>The World of Rosa is still growing, one story at a time.</p>
             </div>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">

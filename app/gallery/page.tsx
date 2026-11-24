@@ -3,13 +3,22 @@ import { ArtworkCard } from "@/components/ArtworkCard";
 
 const rosaOriginals = [
   {
+    title: "EDM",
+    image: "/images/artwork/EDM.jpg",
+    imageAlt: "Rosa at EDC",
+    medium: "Acrylic on Canvas",
+    dimensions: "11 × 14 in",
+    year: "2026",
+    price: "$100",
+  },
+  {
     title: "Strawberry Fields",
     image: "/images/artwork/strawberry_fields.png",
     imageAlt: "Rosa in the Strawberry Fields",
     medium: "Acrylic on Canvas",
     dimensions: "11 × 14 in",
     year: "2026",
-    price: "$100",
+    price: "$75",
   },
 ];
 
@@ -49,34 +58,20 @@ const otherArtworks = [
     year: "2026",
     price: "$200",
   },
-  {
-    title: "Lana Del Rey Pullover",
-    image: "/images/artwork/lana_fabric.jpg",
-    imageAlt: "Hand-painted Lana Del Rey artwork on a hoodie",
-    medium: "Hand-Painted Fabric",
-    year: "2015",
-  },
 ];
 
 const murals = [
   {
-    title: "Home Mural",
+    title: "Rock Legends Mural",
     image: "/images/artwork/home_mural.png",
     imageAlt: "Music-inspired mural painted in the artist's family home",
     medium: "Mural",
     year: "2015",
   },
   {
-    title: "School Mural",
+    title: "Beach Mural",
     image: "/images/artwork/charter_mural.jpg",
-    imageAlt: "Beach scene mural painted at school",
-    medium: "Mural",
-    year: "2015",
-  },
-  {
-    title: "Spider-Man Mural",
-    image: "/images/artwork/spidey_mural_cropped.jpg",
-    imageAlt: "Spider-Man mural",
+    imageAlt: "Beach mural painted at school",
     medium: "Mural",
     year: "2015",
   },
@@ -129,9 +124,6 @@ export default function GalleryPage() {
             <h2 className="mt-3 font-heading text-4xl font-semibold text-olive-dark sm:text-5xl">
               The World of Rosa
             </h2>
-            <p className="mt-4 text-lg leading-8 text-muted-foreground">
-              An evolving collection where each rose captures a different story.
-            </p>
           </div>
 
           <ArtworkGrid artworks={rosaOriginals} />
@@ -145,9 +137,6 @@ export default function GalleryPage() {
             <h2 className="mt-3 font-heading text-4xl font-semibold text-olive-dark sm:text-5xl">
               Other Works
             </h2>
-            <p className="mt-4 text-lg leading-8 text-muted-foreground">
-              A collection of creative work beyond the World of Rosa.
-            </p>
           </div>
 
           <ArtworkGrid artworks={otherArtworks} />
