@@ -150,10 +150,6 @@ export default function GalleryPage() {
             <h2 className="mt-3 font-heading text-4xl font-semibold text-olive-dark sm:text-5xl">
               Murals
             </h2>
-            <p className="mt-4 text-lg leading-8 text-muted-foreground">
-              Hand-painted murals created for homes, schools, and creative
-              spaces.
-            </p>
             <Link
               href="/commissions"
               className="mt-5 inline-flex items-center font-semibold text-rose-dark transition-colors hover:text-rose focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
@@ -176,9 +172,6 @@ export default function GalleryPage() {
             <h2 className="mt-3 font-heading text-4xl font-semibold text-olive-dark sm:text-5xl">
               Digital Works
             </h2>
-            <p className="mt-4 text-lg leading-8 text-muted-foreground">
-              Digital illustrations exploring Rosa&apos;s World.
-            </p>
           </div>
 
           <ArtworkGrid artworks={rosaDigitalWorks} />
