@@ -49,9 +49,8 @@ export default function AboutPage() {
                 pages. Before long, I was creating continuations of those
                 stories through drawings of my own. As I grew older, I
                 discovered a passion for capturing people through acrylics and
-                oil pastels. I've always been drawn to artists who challenge the
-                boundaries of imagination, including Salvador Dalí, Pablo
-                Picasso, Leonardo da Vinci, and Vincent van Gogh.
+                oil pastels. Some of my favorite artists include Salvador Dalí,
+                Pablo Picasso, and Leonardo da Vinci.
               </p>
             </div>
           </div>
@@ -93,8 +92,8 @@ export default function AboutPage() {
             <p className="mt-8 text-lg leading-8 text-muted-foreground">
               As I've grown and explored different parts of myself, I've
               discovered a deep love for electronic dance music. Dancing,
-              attending shows, and immersing myself in the music, colors, and
-              movement have become a meaningful part of my life.
+              attending shows, and immersing myself in the music have become a
+              meaningful part of my life.
             </p>
             <p className="mt-8 text-lg leading-8 text-muted-foreground">
               I see art as a way to romanticize the world around me.
