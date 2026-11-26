@@ -45,12 +45,10 @@ export default function AboutPage() {
               <p>Hey, I'm Nati!</p>
               <p>
                 My love for art began in childhood, flipping through my favorite
-                illustrated books and imagining what happened beyond their
-                pages. Before long, I was creating continuations of those
-                stories through drawings of my own. As I grew older, I
-                discovered a passion for capturing people through acrylics and
-                oil pastels. Some of my favorite artists include Salvador Dalí,
-                Pablo Picasso, and Leonardo da Vinci.
+                illustrated books and creating drawings of my own. As I grew
+                older, I discovered a passion for capturing people through
+                acrylics and oil pastels. Some of my favorite artists include
+                Salvador Dalí, Pablo Picasso, and Leonardo da Vinci.
               </p>
             </div>
           </div>
@@ -145,11 +143,10 @@ export default function AboutPage() {
               </p>
 
               <p>
-                I couldn&apos;t stop wondering who she was or what stories she
-                had to tell. As I began drawing her, the song{" "}
+                As I began drawing her, the song{" "}
                 <em>Rosa que linda eres by Carlos Vives</em> kept playing in my
-                head. I started imagining a beautiful woman, with a rose for a
-                head, blossoming into the best version of herself.
+                head. I started imagining a woman, with a rose for a head,
+                blossoming into something beautiful.
               </p>
 
               <p>That's when I gave her a name: Rosa.</p>
