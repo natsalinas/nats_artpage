@@ -97,8 +97,10 @@ export default function AboutPage() {
               movement have become a meaningful part of my life.
             </p>
             <p className="mt-8 text-lg leading-8 text-muted-foreground">
-              I see art as a way to romanticize the world around me. I hope my
-              art inspires you to see a little magic in the everyday.
+              I see art as a way to romanticize the world around me.
+            </p>
+            <p className="mt-8 text-lg leading-8 text-muted-foreground">
+              I hope my art inspires you to see a little magic in the everyday.
             </p>
           </div>
 
