@@ -66,13 +66,12 @@ export default function AboutPage() {
               />
             </div>
             <p className="mt-8 text-lg leading-8 text-muted-foreground">
-              Music has always been a big part of my life and a source of
-              inspiration for my art. Growing up listening to bands like The
-              Beatles and Pink Floyd, I fell in love with the way music could
-              transport you somewhere entirely different. My parents encouraged
-              my creativity from an early age, and before leaving for college, I
-              painted a mural in their home celebrating the music that I grew up
-              with.
+              Music has always been a big source of inspiration for my art.
+              Growing up listening to bands like The Beatles and Pink Floyd, I
+              fell in love with the way music could transport you somewhere
+              entirely different. My parents encouraged my creativity from an
+              early age, and before leaving for college, I painted a mural in
+              their home celebrating the music that I grew up with.
             </p>
           </div>
 
@@ -90,9 +89,9 @@ export default function AboutPage() {
 
             <p className="mt-8 text-lg leading-8 text-muted-foreground">
               As I've grown and explored different parts of myself, I've
-              discovered a deep love for electronic dance music. Dancing,
-              attending shows, and immersing myself in the music have become a
-              meaningful part of my life.
+              discovered a love for electronic dance music. Dancing, attending
+              shows, and immersing myself in the music have become a meaningful
+              part of my life.
             </p>
             <p className="mt-8 text-lg leading-8 text-muted-foreground">
               I see art as a way to romanticize the world around me.
