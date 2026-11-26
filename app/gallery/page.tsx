@@ -18,7 +18,7 @@ const rosaOriginals = [
     medium: "Acrylic on Canvas",
     dimensions: "11 × 14 in",
     year: "2026",
-    price: "$75",
+    price: "$50",
   },
 ];
 
@@ -56,7 +56,7 @@ const otherArtworks = [
     medium: "Acrylic on Canvas",
     dimensions: "30 × 15 in",
     year: "2026",
-    price: "$200",
+    price: "$150",
   },
 ];
 
