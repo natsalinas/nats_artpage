@@ -48,10 +48,10 @@ export default function AboutPage() {
                 illustrated books and imagining what happened beyond their
                 pages. Before long, I was creating continuations of those
                 stories through drawings of my own. As I grew older, I
-                discovered a passion for capturing people and emotions through
-                acrylics and oil pastels. I've always been drawn to artists who
-                challenge the boundaries of imagination, including Salvador
-                Dalí, Pablo Picasso, Leonardo da Vinci, and Vincent van Gogh.
+                discovered a passion for capturing people through acrylics and
+                oil pastels. I've always been drawn to artists who challenge the
+                boundaries of imagination, including Salvador Dalí, Pablo
+                Picasso, Leonardo da Vinci, and Vincent van Gogh.
               </p>
             </div>
           </div>
@@ -74,8 +74,7 @@ export default function AboutPage() {
               Pink Floyd, I fell in love with the way music could transport you
               somewhere entirely different. My parents encouraged my creativity
               from an early age, and before leaving for college, I painted a
-              mural in their home celebrating the music that shaped my
-              childhood.
+              mural in their home celebrating the music that I grew up with.
             </p>
           </div>
 
@@ -93,11 +92,9 @@ export default function AboutPage() {
 
             <p className="mt-8 text-lg leading-8 text-muted-foreground">
               As I've grown and explored different parts of myself, I've
-              discovered a deep love for electronic dance music, particularly
-              the energy and creativity of the EDM community. Dancing, attending
-              shows, and immersing myself in the music, colors, and movement
-              have become a meaningful part of my life and a new source of
-              inspiration for my art.
+              discovered a deep love for electronic dance music. Dancing,
+              attending shows, and immersing myself in the music, colors, and
+              movement have become a meaningful part of my life.
             </p>
             <p className="mt-8 text-lg leading-8 text-muted-foreground">
               I see art as a way to romanticize the world around me. I hope my
@@ -147,9 +144,13 @@ export default function AboutPage() {
 
               <p>
                 I couldn&apos;t stop wondering who she was or what stories she
-                had to tell. So I began painting my own interpretations and
-                bringing Rosa into my everyday life.
+                had to tell. As I began drawing her, the song{" "}
+                <em>Rosa que linda eres by Carlos Vives</em> kept playing in my
+                head. I started imagining a beautiful woman, with a rose for a
+                head, blossoming into the best version of herself.
               </p>
+
+              <p>That's when I gave her a name: Rosa.</p>
             </div>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">
